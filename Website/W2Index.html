@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="HTML5, Semantic HTML, Accessibility, SEO, Web Development" />
+    <meta name="author" content="Serfine"/>
+    <title>Week 2 _ HTML Elements</title>
+</head>
+<body>
+    <h2>Definition Lists</h2>
+    <dl>
+        <dt>Backend</dt>
+        <dd>A 'server' software that users do not interact with directly and where application logic resides.</dd>
+        <dt>FrontEnd</dt>
+        <dd>The presentation layer of software where users interact with.</dd>
+    </dl>
+    <h2>Nested Lists</h2>
+    <ul>
+        <li>Fruits
+            <ol type="a">
+                <li>Apple
+                    <ul>
+                        <li>Red Apple</li>
+                        <li>Green Apple</li>
+                    </ul>
+                </li>
+                <li>Banana</li>
+                <li>Cherry</li>
+            </ol>
+        </li>
+        <li>Vegetables</li>
+        <ol type="i">
+            <li>Carrot</li>
+            <li>Broccoli</li>
+            <li>Spinach</li>
+        </ol>
+    </ul>
+    <h2>Images</h2>
+    <img src="c:\Users\HP\OneDrive\Pictures\pic waterfall.jpg" alt="Picture of a waterfall" width="300" height="400">
+    <h2>Video</h2>
+    <video controls width="350" height="200">
+      <source src="C:\Users\HP\Videos\video flowers.mp4" type="video/mp4">
+    </video>
+    <h2>Audio</h2>
+    <audio controls>
+       <source src="">
+    </audio>
+    <h2>Tables</h2>
+    <table border ="1">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Forms</h2>
+    <form action="location" method="how" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="profile">Profile Picture</label>
+        <input type="file" name="profile" id="profile">
+        <br><br>
+        <label for="bio">Bio</label>
+        <textarea name="bio" id="bio" rows="4" cols="50"></textarea>
+        <br><br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="">--Select Country--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

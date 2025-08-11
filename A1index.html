@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn the best practices of HTML5 with a semantic structure, accessibility, and SEO-friendly content." />
+  <meta name="keywords" content="HTML5, Semantic HTML, Accessibility, SEO, Web Development" />
+  <meta name="author" content="Serfine" />
+  <title>Semantic HTML5 Web Page Example</title>
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" aria-label="Learn more about this page">About</a></li>
+        <li><a href="#features" aria-label="See the features">Features</a></li>
+        <li><a href="#contact" aria-label="Contact us">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Our Semantic HTML5 Example</h1>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page demonstrates the use of semantic HTML5 elements, accessibility enhancements, and SEO-friendly practices. It uses clear headings, organized content, and proper HTML structure for readability and usability.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article>
+        <h3>Semantic HTML Elements</h3>
+        <p>Tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> are used to define the document structure.</p>
+      </article>
+      <article>
+        <h3>Accessibility</h3>
+        <p>ARIA labels, meaningful headings, and proper link descriptions enhance accessibility for screen readers.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>Metadata, meaningful headings, and keyword-rich content help search engines index the page effectively.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Semantic HTML Example. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
